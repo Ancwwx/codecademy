@@ -2,8 +2,7 @@ package codecademyPractice;
 
 public class test {
 	public static void main(String[] args) {
-		   double[][] data = {{1.4, 7.5, 3.5, 8.7, 9.2},
-	                {0.8, 2.6, 6.3, 3.4, 7.5}};
+		   double[][] data = {{1.4, 7.5, 3.5, 8.7, 9.2},{0.8, 2.6, 6.3, 3.4, 7.5}};
 	        
 	        for(int i = 0; i < data[1].length; i++) {
 	            for( int j = 0; j < data.length; j++) {
