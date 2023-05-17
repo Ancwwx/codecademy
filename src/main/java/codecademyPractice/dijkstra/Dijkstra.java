@@ -7,7 +7,6 @@ import java.util.Hashtable;
 import java.util.PriorityQueue;
 
 public class Dijkstra {
-
 	public static Dictionary[] dijkstra(Graph g, Vertex startingVertex) {
 		Dictionary<String, Integer> distances = new Hashtable<>();
 		Dictionary<String, Vertex> previous = new Hashtable<>();
