@@ -5,5 +5,6 @@ public class Main {
 	    SchoolPerson person = new SchoolPerson("Peter");
 	    Bus<SchoolPerson> busWPerson = new Bus<>(person);
 	    busWPerson.printRider();    
+	    
 	  }
 	}
