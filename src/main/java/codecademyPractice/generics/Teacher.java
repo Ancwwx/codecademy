@@ -17,6 +17,6 @@ public class Teacher extends SchoolPerson {
 	  }
 
 	  public String toString() {
-	    return "Teacher : (name = "+this.getName()+", subject = "+ this.subject+")";
+	    return "Teacher = (name = "+this.getName()+", subject = "+ this.subject+")";
 	  }
 	}
